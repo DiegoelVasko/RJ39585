@@ -1,0 +1,16 @@
+.calzados {
+  font-size: 50px;
+  font-weight: 500;
+  color: sienna;
+  padding: 20px 500px;
+}
+
+.contenedorProductos {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.producto {
+  padding: 10px;
+  margin: 20px;
+}
