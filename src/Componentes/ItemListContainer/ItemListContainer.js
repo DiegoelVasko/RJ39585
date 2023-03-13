@@ -1,33 +1,43 @@
-import "../ItemListContainer/itemListContainer.scss";
-import Productos from "../Items/Items";
-
+import { useEffect } from "react"
+import { useState } from "react"
+import './ItemListContainer.scss'
+import ItemList from "../ItemList/ItemList"
+import { useParams } from "react-router-dom"
+import { pedirDatos } from "../../helpers/pedirDatos"
 const ItemListContainer = () => {
-  return (
-    <div className="contenedorCalzados">
-      <h2 className="calzados">Calzados</h2>
-      <article className="contenedorProductos">
-        <Productos
-          marca="ADIDAS"
-          modelo="HARDEN VOL.6 'HIGHLIGHTER'"
-          precio={140}
-        />
+  
+  const [productos, setProductos] = useState ([])
+  const [loading, setLoading] = useState ([true])
+  
+  const { categoryId} = useParams()
 
-        <Productos
-          marca="JORDAN"
-          modelo="Air Jordan 36 'Black Infrared'"
-          precio={185}
-        />
-        <Productos
-          marca="NIKE"
-          modelo="LEBRON 19 'MINNEAPOLIS LAKERS'"
-          precio={149.99}
-        />
-        <Productos
-          marca="NEW BALANCE"
-          modelo="KAWHI 'POWER SOURCE'"
-          precio={160}
-        />
-      </article>
+  useEffect (() => {
+    setLoading (true)
+
+    pedirDatos()
+       .then((response) =>{
+          if (!categoryId){
+            setProductos(response)
+          }else{
+            setProductos ( response.filter((prod) => prod.category === categoryId) )
+          }
+       })
+       .catch((error) =>{
+          console.log(error)
+       })
+       .finally(() =>{
+          setLoading(false)
+       }) 
+  }, [categoryId])
+  
+  return (
+    <div className="contenedorProductos">
+      {
+        loading
+          ? <h2>Cargando productos...</h2>
+          : <ItemList items={productos}/>
+      }
+
     </div>
   );
 };

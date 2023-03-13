@@ -9,6 +9,7 @@
     "img2": "img/adidas_don_issue_3_3.jpg",
     "img3": "img/adidas_don_issue_3_4.jpg",
     "img4": "img/adidas_don_issue_3_5.jpg",
+    "cantidad": 10,
     "descripcion": "La tercera zap,atilla exclusiva de Donovan Mitchell de ADIDAS Basketball es una celebración del viaje de Spida para convertirse en uno de los mejores jugadores del juego. El don. El número 3 destaca los capítulos del camino de Donovan hacia la grandeza. Desde los sueños de la infancia hasta el estatus de superestrella, estas zapatillas de baloncesto para jóvenes destacan el ascenso de Donovan Mitchell a la cima"
   },
   {
@@ -21,6 +22,7 @@
     "img2": "img/nike_kd14_lime_glow_3.jpg",
     "img3": "img/nike_kd14_lime_glow_4.jpg",
     "img4": "img/nike_kd14_lime_glow_5.jpg",
+    "cantidad": 10,
     "descripcion": "Kevin Durant acecha en el ala, esperando al momento perfecto para atacar y abrirse camino entre la defensa. Las KD14 están diseñadas para ayudar a los jugadores versátiles e implacables como KD a mantener la frescura durante todo el partido. El tejido de malla multicapa y la correa del mediopié ayudan a reducir el movimiento del pie dentro de la zapatilla. La amortiguación Zoom Air completa y la espuma Cushlon ofrecen un gran retorno de la energía para disfrutar de un rendimiento duradero."
   },
   {
@@ -33,6 +35,7 @@
     "img2": "img/air_jordan_36_black_infrared_3.jpg",
     "img3": "img/air_jordan_36_black_infrared_4.jpg",
     "img4": "img/air_jordan_36_black_infrared_5.jpg",
+    "cantidad": 10,
     "descripcion": "Corre rápido y ligero con las Air Jordan XXXVI, la nueva expresión de ligereza y velocidad de la franquicia."
   },
   {
@@ -45,6 +48,7 @@
     "img2": "img/nike_zoom_freak_3_3.jpg",
     "img3": "img/nike_zoom_freak_3_4.jpg",
     "img4": "img/nike_zoom_freak_3_5.jpg",
+    "cantidad": 10,
     "descripcion": "Giannis combina su juego atlético con grandes zancadas, fintas de salida y la capacidad de jugar en cualquier posición: nadie se interpone en su camino a canasta. Las Zoom Freak 3 le permiten aprovechar al máximo sus habilidades únicas y maximizar su impacto en el partido.La amortiguación y el retorno de energía, la sujeción lateral y la tracción multidireccional ayudan a los jugadores multidimensionales, como Giannis, a crear espacio y mantener el control."
   },
   {
@@ -57,6 +61,7 @@
     "img2": "img/jorda_zoom_separate_mavs_3.jpg",
     "img3": "img/jorda_zoom_separate_mavs_4.jpg",
     "img4": "img/jorda_zoom_separate_mavs_5.jpg",
+    "cantidad": 10,
     "descripcion": "El step-back fue el movimiento de inspiración para la Jordan Zoom Separate. Un diseño liviano y de corte bajo diseñado para ayudar a tomar el control de la cancha. La amortiguación es más firme en el exterior del pie y más suave en el interior, por lo que puedes presionar con fuerza contra el suelo mientras te inclinas para cambiar de dirección. La unidad Zoom Air te ayuda a separarte del defensor para tener una vista clara de la canasta"
   },
   {
@@ -69,6 +74,7 @@
     "img2": "img/nike_kyrie_8_4.jpg",
     "img3": "img/nike_kyrie_8_5.jpg",
     "img4": "img/nike_kyrie_8_6.jpg",
+    "cantidad": 10,
     "descripcion": "Juega con el estilo y la chispa de una estrella. Kyrie Irving ha confeccionado sus zapatillas para brindar flexibilidad y un ajuste ceñido, de modo que puedas cruzar y cambiar de dirección rápidamente en la cancha"
   },
   {
@@ -81,6 +87,7 @@
     "img2": "img/nb_kawhi_bbklsqua_3.jpg",
     "img3": "img/nb_kawhi_bbklsqua_4.jpg",
     "img4": "img/nb_kawhi_bbklsqua_5.jpg",
+    "cantidad": 10,
     "descripcion": "Diseñada con el dos veces campeón de la NBA y MVP de las Finales de la NBA, Kawhi Leonard, la KAWHI de New Balance se ha creado para jugar en cualquier posición, al mismo tiempo que incorpora detalles diseñados por Kawhi, suficientemente duraderas para mantener tu estilo de juego independiente, y suficientemente suaves para llevarlas en casa."
   },
   {
@@ -93,6 +100,7 @@
     "img2": "img/under_armour_curry_9_sesame_street_count_it_3.jpg",
     "img3": "img/under_armour_curry_9_sesame_street_count_it_4.jpg",
     "img4": "img/under_armour_curry_9_sesame_street_count_it_5.jpg",
+    "cantidad": 10,
     "descripcion": "Las Curry 9 se basan en el éxito de las Curry Flow 8. La nueva tecnología superior de baloncesto de Under Armour que mejora la estabilidad del pie. UA Warp funciona en conjunto con UA Flow, con cintas de soporte que bloquean el pie en la entresuela UA Flow al tiempo que permiten un movimiento natural."
   },
   {
@@ -105,6 +113,7 @@
     "img2": "img/nike_lebron_19_3.jpg",
     "img3": "img/nike_lebron_19_4.jpg",
     "img4": "img/nike_lebron_19_5.jpg",
+    "cantidad": 10,
     "descripcion": "Las LeBron 19 canalizan la energía con un ajuste firme y un sistema de amortiguación actualizado. La funda interior ceñida se combina con un revestimiento esculpido por el que entran los cordones para evitar que el pie se mueva dentro de las zapatillas.Las almohadillas integradas en la lengüeta y la zona del tobillo contribuyen a reducir el peso, mantener el tobillo alineado y dar al jugador la seguridad y la confianza que necesita para darlo todo cuando el partido está en juego."
   },
   {
@@ -116,6 +125,7 @@
     "subcategoria": "remera",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "Imita a tu jugador profesional favorito con la camiseta Nike Miami Heat. Los detalles del equipo y el jugador sobre algodón suave rinden homenaje a tu héroe de la cancha y mantienen la comodidad tanto en la cancha como en el asfalto."
   },
   {
@@ -125,6 +135,7 @@
     "precio": 20,
     "categoria": "",
     "img1": "",
+    "cantidad": 10,
     "descripcion": "Estos calcetines están diseñados para llevar a los atletas al siguiente nivel. Mantienen los pies frescos, son ligeros, sujetan, están acolchados, son transpirables y no se resbalan. Lo que quiere decir que, todo lo que haces, lo puedes hacer mejor."
   },
   {
@@ -137,6 +148,7 @@
     "img1": "",
     "img2": "",
     "img3": "",
+    "cantidad": 10,
     "descripcion": "Donovan Mitchell lo aporta día tras día, ya sea participando en una práctica de rutina o probando su temple contra los mejores. Esta sudadera con capucha de baloncesto de adidas canaliza esa búsqueda de la excelencia con su logotipo característico en el pecho. Tiene un ajuste holgado y una suave sensación para mantenerte cómodo mientras logras tus objetivos."
   },
   {
@@ -150,6 +162,7 @@
     "img2": "",
     "img3": "",
     "img4": "",
+    "cantidad": 10,
     "descripcion": "Vestir la Air Jordan Camiseta Estampada es celebrar la herencia de His Airness y su impacto en la cultura contemporánea. El detalle en malla transpirable en la espalda proporciona mejor ventilación a la pieza y una sensación de ligereza que la hacen ideal para los días de calor."
   },
   {
@@ -163,6 +176,7 @@
     "img2": "",
     "img3": "",
     "img4": "",
+    "cantidad": 10,
     "descripcion": "El pantalón corto de baloncesto Jordan Rise Diamond para hombre está confeccionado con un tejido que capilariza el sudor para ofrecer una comodidad transpirable en la cancha."
   },
   {
@@ -175,6 +189,7 @@
     "img1": "",
     "img2": "",
     "img3": "",
+    "cantidad": 10,
     "descripcion": "Los calcetines de baloncesto Jordan Ultimate Flight Crew 2.0 cuentan con un diseño suave con amortiguación estratégica que te mantiene cómodo sobre la cancha. Zonas de ventilación de malla y tecnología de capilarización del sudor que te ayudan a mantenerte fresco y seco hasta el final del partido."
   },
   {
@@ -185,6 +200,7 @@
     "categoria": "accesorios",
     "subcategoria": "muñequera",
     "img1": "",
+    "cantidad": 10,
     "descripcion": ""
   },
   {
@@ -196,6 +212,7 @@
     "subcategoria": "short",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": ""
   },
   {
@@ -206,6 +223,7 @@
     "categoria": "indumentaria",
     "subcategoria": "remera",
     "img1": "",
+    "cantidad": 10,
     "descripcion": "'Todo lo que ponga mi nombre tiene que ser bueno, tiene que ayudarte a jugar y tiene que apoyar nuestra misión de cambiar el juego para siempre'. - Stephen Curry"
   },
   {
@@ -218,6 +236,7 @@
     "img1": "",
     "img2": "",
     "img3": "",
+    "cantidad": 10,
     "descripcion": "¿Recuerdas cuando te enamoraste por primera vez de tu equipo? Como parte de la colección City Edition de Nike, estos shorts rinden homenaje a la historia de tu equipo con detalles de diseño inspirados en lo que los jugadores usaban en su día."
   },
   {
@@ -229,6 +248,7 @@
     "subcategoria": "buzo",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "No dejes que el frío se interponga entre tú y tu equipo. Esta sudadera con capucha de ajuste holgado de Nike te permite mostrar la pasión por tu equipo con unos estampados del equipo sobre un tejido Fleece supersuave que proporciona calidez en las temperaturas más frías."
   },
   {
@@ -240,6 +260,7 @@
     "subcategoria": "short",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "El pantalón corto Nike de la NBA Icon Edition Swingman para hombre, inspirado en el diseño auténtico de la NBA, cuenta con un tejido de doble punto que capilariza el sudor, bolsillos laterales para acceder a tus cosas con facilidad y unos detalles de diseño que combinan a la perfección con el look de tu equipo sobre la cancha."
   },
   {
@@ -251,6 +272,7 @@
     "subcategoria": "muñequera",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "Las muñequeras Nike Elite están confeccionadas con un tejido elástico y absorbente para ofrecer un ajuste cómodo que ayuda a retener el sudor."
   },
   {
@@ -262,6 +284,7 @@
     "subcategoria": "medias",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "Los calcetines largos Nike Elite ofrecen un ajuste firme gracias a una banda en el puente y amortiguación estratégica para absorber los impactos cuando corres por la cancha."
   },
   {
@@ -273,6 +296,7 @@
     "subcategoria": "remera",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "La camiseta de la NBA Nike incorpora la tecnología Dri-FIT que capilariza el sudor para mantener la transpirabilidad y la comodidad, tanto si corres en la cancha como si animas a tu equipo favorito."
   },
   {
@@ -284,6 +308,7 @@
     "subcategoria": "short",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "El pantalón corto de la NBA Icon Edition Swingman Nike para hombre, inspirado en el diseño auténtico de la NBA, cuenta con un tejido de doble punto que capilariza el sudor, bolsillos laterales de fácil acceso y detalles de diseño que combinan con el look de tu equipo sobre la cancha."
   },
   {
@@ -295,6 +320,7 @@
     "subcategoria": "remera",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "La camiseta de la NBA Nike incorpora la tecnología Dri-FIT que capilariza el sudor para mantener la transpirabilidad y la comodidad, tanto si corres en la cancha como si animas a tu equipo favorito."
   },
   {
@@ -306,6 +332,7 @@
     "subcategoria": "remera",
     "img1": "",
     "img2": "",
+    "cantidad": 10,
     "descripcion": "Anima a tu equipo con la comodidad informal de la camiseta Nike Essential. El logotipo de los Chicago Bulls muestra tu lealtad al equipo con un diseño de tejido Knit increíblemente suave al contacto con la piel."
   },
   {
@@ -318,6 +345,7 @@
     "img2": "",
     "img3": "",
     "img4": "",
+    "cantidad": 10,
     "descripcion": "Las MB.02 son las segundas zapatillas insignia de Melo. Son innovadoras, inconfundibles sobre la pista y como Melo, de otro planeta. Esta actualización del modelo de la temporada pasada mantiene las llamas inspiradas en el cohete que lleva tatuado el base en el exterior y la espuma NITRO en la mediasuela, para que machaques el aro, encestes triples y hagas bandejas como un auténtico profesional."
   },
   {
@@ -331,6 +359,7 @@
     "img2": "",
     "img3": "",
     "img4": "",
+    "cantidad": 10,
     "descripcion": "Prepárate y salta a la cancha como la superestrella del baloncesto LaMelo Ball con esta camiseta RARE, para que te veas bien durante todo el día."
   },
   {
@@ -341,6 +370,7 @@
     "categoria": "indumentaria",
     "subcategoria": "short",
     "img1": "",
+    "cantidad": 10,
     "descripcion": "Calienta en la cancha como la superestrella LaMelo Ball con estos shorts que te mantendrán listo para dar asistencias sobre tu oponente durante todo el juego."
   },
   {
@@ -351,6 +381,7 @@
     "categoria": "indumentaria",
     "subcategoria": "buzo",
     "img1": "",
+    "cantidad": 10,
     "descripcion": "Abróchate el cierre y calienta en la cancha como la superestrella LaMelo Ball con esta chaqueta que te tendrá listo para dar asistencias sobre tu oponente durante todo el juego. "
   }
 ]

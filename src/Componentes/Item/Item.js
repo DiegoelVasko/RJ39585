@@ -8,7 +8,7 @@ const Item = ({ item }) => {
       <Card.Body>
         <Card.Text>Marca: {item.marca}</Card.Text>
         <Card.Title>Modelo: {item.modelo}</Card.Title>
-        <Card.Text>Precio: U$S{items.precio}</Card.Text>
+        <Card.Text>Precio: U$S{item.precio}</Card.Text>
         <Link to={`/detail/${item.id}`}>Ver más</Link>
       </Card.Body>
     </Card>
