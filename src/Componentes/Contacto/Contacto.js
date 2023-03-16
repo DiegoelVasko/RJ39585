@@ -1,13 +1,9 @@
-
-
 const Contacto = () => {
+  return (
+    <div>
+      <h2>Contacto</h2>
+    </div>
+  );
+};
 
-    return (
-        <div>
-            <h2>Contacto</h2>
-            <hr/>
-        </div>
-    )
-}
-
-export default Contacto
+export default Contacto;
