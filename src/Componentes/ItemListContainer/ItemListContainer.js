@@ -3,7 +3,7 @@ import { useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { pedirDatos } from "../../helpers/pedirDatos";
-import "./ItemListContainer.scss";
+
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState([true]);

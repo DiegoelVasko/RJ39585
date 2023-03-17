@@ -4,6 +4,7 @@ import ItemCount from "../ItemCount/ItemCount";
 import Card from "react-bootstrap/Card";
 
 const ItemDetail = ({ item }) => {
+ 
   const [cantidad, setCantidad] = useState(1);
   const navigate = useNavigate();
 
@@ -12,12 +13,12 @@ const ItemDetail = ({ item }) => {
   };
 
   const handleAgregar = () => {
-    const newItem = {
+    const ItemToCart = {
       ...item,
       cantidad,
     };
 
-    console.log(newItem);
+    console.log(ItemToCart);
   };
 
   return (
