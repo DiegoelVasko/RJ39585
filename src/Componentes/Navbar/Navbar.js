@@ -1,7 +1,9 @@
 import CartWidget from "../CartWidget/CartWidget";
 import "./Navbar.scss";
 import logo from "./pulpostorelogo.svg";
-import { Link, link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+
 
 export const Navbar = () => {
   return (
@@ -10,7 +12,7 @@ export const Navbar = () => {
         <Link to="/">
           <img src={logo} className="header__logo" alt="logo" />
         </Link>
-        <ul className="navbar">
+        <nav className="navbar">
           <Link to="/" className="navbar__link">
             Inicio
           </Link>
@@ -29,9 +31,11 @@ export const Navbar = () => {
           <Link to="/shoetester" className="navbar__link">
             Shoe Tester
           </Link>
-        </ul>
+        </nav>
         <CartWidget />
       </div>
+      
+ 
     </header>
   );
 };

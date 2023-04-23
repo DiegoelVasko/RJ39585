@@ -1,12 +1,19 @@
-import logoCart from "./cart-shopping-solid.svg";
+
+import { useContext } from 'react'
+import { FaShoppingCart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../../context/CartContext'
 
 const CartWidget = () => {
-  return (
-    <div className="container__cartWidget">
-      <img src={logoCart} className="cartWidget" />
-      <button className="cartWidget__cant">2</button>
-    </div>
-  );
-};
+  const { cart, totalCantidad } = useContext(CartContext)
 
-export default CartWidget;
+  return (
+      <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
+          <FaShoppingCart />
+          <span>{totalCantidad()}</span>
+      </Link>
+  )
+}
+
+
+export default CartWidget

@@ -8,20 +8,26 @@ const ItemCount = ({ max, cantidad, setCantidad, handleAgregar }) => {
   };
 
   return (
-    <div className="my-2">
+    <div className="d-flex justify-content-end align-self-center">
       <button
         onClick={handleRestar}
-        className="btn btn-outline-secondary btn-sm "
+        className={`btn btn-outline-secondary btn-sm ${cantidad === 1 ? "btn-outline-danger" : "btn-outline-primary"}`}
+
+        disabled={cantidad === 1}
       >
         -
       </button>
-      <span className="mx-1">{cantidad}</span>
+
+      <span className="m-2">{cantidad}</span>
+      
       <button
         onClick={handleSumar}
-        className="btn btn-outline-secondary btn-sm "
+        className={`btn btn-outline-secondary btn-sm {cantidad === max ? "btn btn-danger" : "btn btn-primary"}`}
+        disabled={cantidad === max}
       >
         +
       </button>
+     
       <button
         onClick={handleAgregar}
         className="btn btn-outline-secondary mx-2"

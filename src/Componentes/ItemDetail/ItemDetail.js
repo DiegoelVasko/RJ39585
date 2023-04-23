@@ -1,70 +1,83 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
-import Card from "react-bootstrap/Card";
+import {CartContext} from "../../context/CartContext" 
+import"./ItemDetail.scss"
+import LowStockMsg from "./LowStockMsg"
+
+
 
 const ItemDetail = ({ item }) => {
+  const { agregarAlCarrito, isInCart} = useContext(CartContext)
+
+  const [cantidad, setCantidad] = useState(1)
+  const navigate = useNavigate()
  
-  const [cantidad, setCantidad] = useState(1);
-  const navigate = useNavigate();
+  
 
   const handleVolver = () => {
     navigate(-1);
   };
 
   const handleAgregar = () => {
-    const ItemToCart = {
+    const newItem = {
       ...item,
       cantidad,
     };
 
-    console.log(ItemToCart);
+    agregarAlCarrito(newItem)
   };
 
+
+
   return (
-    <Card className="producto mx-5">
+    <article className="detalleProducto m-3 p-2 rounded">
       <div className="row">
-        <Card.Img
-          variant="top"
-          className="w-25 m-5 border rounded"
+        <img
+          className="w-25 "
           src={item.img1}
-          alt={item.name}
+          alt={item.modelo}
         />
-        <Card.Img
-          variant="top"
-          className="w-25 m-5 border rounded"
+        <img
+          className="w-25 "
           src={item.img2}
-          alt={item.name}
+          alt={item.modelo}
         />
-        <Card.Img
-          variant="top"
-          className="w-25 m-5 border rounded"
+        <img
+          className="w-25 "
           src={item.img3}
-          alt={item.name}
+          alt={item.modelo}
         />
-        <Card.Img
-          variant="top"
-          className="w-25 m-5 border rounded"
+        <img
+          className="w-25 "
           src={item.img4}
-          alt={item.name}
+          alt={item.modelo}
         />
       </div>
-      <Card.Body>
-        <Card.Text>Marca: {item.marca}</Card.Text>
-        <Card.Title>Modelo: {item.modelo}</Card.Title>
-        <Card.Text>{item.descripcion}</Card.Text>
-        <Card.Text>Precio: U$S{item.precio}</Card.Text>
-        <ItemCount
-          max={item.stock}
-          cantidad={cantidad}
-          setCantidad={setCantidad}
-          handleAgregar={handleAgregar}
-        />
-        <button onClick={handleVolver} className="btn btn-outline-dark mx-2">
+      <div className="container my-3">
+        <h4 className="m-2 text-end  text-decoration-underline">Marca: {item.marca}</h4>
+        <h2 className="m-2 ">Modelo: {item.modelo}</h2>
+        <p className="m-2 ">{item.descripcion}</p>
+        <p className="m-2 text-end">Precio: U$S{item.precio}</p>
+        {item.stock <=3 && <LowStockMsg stock={item.stock}/>}
+
+        
+        
+        { isInCart(item.id)
+            ? <Link to="/cart" className="btn">Finalizar Compra</Link>
+            : <ItemCount 
+                max={item.stock}
+                cantidad={cantidad}
+                setCantidad={setCantidad}
+                handleAgregar={handleAgregar}
+              />
+        }
+        <br/>
+        <button onClick={handleVolver} className="btn btn-outline-dark justify-content-end">
           Volver
         </button>
-      </Card.Body>
-    </Card>
+      </div>
+    </article>
   );
 };
 
