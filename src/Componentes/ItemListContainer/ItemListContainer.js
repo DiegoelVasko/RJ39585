@@ -18,7 +18,7 @@ const ItemListContainer = () => {
     const productosRef =collection(dataBase, "productos")
 
     const q = categoriaId
-        ?query(productosRef, where("categoria", "==", categoriaId), where("marca", "==", marcaId ))
+        ?query(productosRef, where("categoria", "==", categoriaId))
         : productosRef
     
     

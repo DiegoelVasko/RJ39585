@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import { BsFillTrashFill } from 'react-icons/bs'
 import { Link } from "react-router-dom"
+import "./Cart.scss"
 
 
 const Cart = () => {
@@ -24,20 +25,25 @@ const Cart = () => {
             <hr/>
 
             {
-                cart.map((item) => (
-                    <div key={item.id}>
-                        <h4>{item.modelo}</h4>
-                        <img src={item.img1} alt={item.modelo}/>
-                        <small>Precio unitario: ${item.precio} </small>
-                        <small>Cantidad: {item.cantidad}</small>
-                        <p>Precio Total: ${item.precio * item.cantidad}</p>
-                        <button 
-                            onClick={() => eliminarDelCarrito(item.id) } 
-                            className="btn btn-danger"
-                        >
-                            <BsFillTrashFill/>
-                        </button>
-                        <hr/>
+                cart.map((prod) => (
+                    <div className="cart card  mb-3 text-bg-info p-3"  key={prod.id}>
+                        <div className="row g-0">
+                            <div className="col-md-4">    
+                                <img className="img-fluid rounded-start" src={prod.img1} alt={prod.modelo}/>
+                            </div>
+                            <div className="col-md-8">
+                                <h4>{prod.modelo}</h4>
+                                <small>Precio unitario: ${prod.precio} </small>
+                                <small>Cantidad: {prod.cantidad}</small>
+                                <p>Precio Total: ${prod.precio * prod.cantidad}</p>
+                                <button 
+                                    onClick={() => eliminarDelCarrito(prod.id) } 
+                                    className="btn btn-danger"
+                                >
+                                    <BsFillTrashFill/>
+                                </button>
+                            </div>    
+                        </div>    
                     </div>
                 ))
             }
