@@ -10,7 +10,7 @@ const ItemListContainer = () => {
   const [loading, setLoading] = useState([true]);
 
   const { categoriaId } = useParams();
-  const {marcaId}= useParams()
+  
 
   useEffect(() => {
     setLoading(true);

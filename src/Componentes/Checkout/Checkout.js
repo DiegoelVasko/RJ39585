@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { Navigate } from "react-router-dom"
+import { Link, Navigate } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import { dataBase } from "../../firebase/config"
 import { collection, addDoc, getDoc, updateDoc, doc } from "firebase/firestore"
@@ -92,6 +92,7 @@ const Checkout = () => {
             <div className="container  my-5">
                 <h2>Orden registrada</h2>
                 <p>Tu nro de  orden {ordenId} será enviada a tu mail</p>
+                <Link to="/" className="btn btn-primary">Aceptar</Link>
             </div>
         )
     }
