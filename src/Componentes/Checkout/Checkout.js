@@ -89,7 +89,7 @@ const Checkout = () => {
 
     if(ordenId) {
         return(
-            <div className="container my-5">
+            <div className="container  my-5">
                 <h2>Orden registrada</h2>
                 <p>Tu nro de  orden {ordenId} será enviada a tu mail</p>
             </div>
@@ -101,7 +101,7 @@ const Checkout = () => {
         return <Navigate to="/"/>
 
     return (
-        <div className="container my-5">
+        <div className="container my-5 ">
             <h2 className="pb-3">Ingresa tus datos para contactarnos</h2>
 
             <form onSubmit={handleSubmit}>
@@ -110,7 +110,7 @@ const Checkout = () => {
                 value={values.nombre} 
                 type={'text'}
                 placeholder= 'Nombre'
-                className="form-control my-2 mx-5"
+                className="form-control my-2 bg-light w-75 mx-5"
                 name="nombre"
                 />
                 <input
@@ -118,7 +118,7 @@ const Checkout = () => {
                 value={values.direccion} 
                 type={'text'}
                 placeholder= 'Direccion'
-                className="form-control my-2 mx-5"
+                className="form-control my-2 bg-light w-75 mx-5"
                 name="direccion"
                 />
                 <input
@@ -126,7 +126,7 @@ const Checkout = () => {
                 value={values.telefono} 
                 type={'text'}
                 placeholder= 'Telefono'
-                className="form-control my-2 mx-5"
+                className="form-control my-2 bg-light w-75 mx-5"
                 name="telefono"
                 />
                 <input
@@ -134,7 +134,7 @@ const Checkout = () => {
                 value={values.email} 
                 type={'email'}
                 placeholder= 'Email'
-                className="form-control my-2 mx-5"
+                className="form-control my-2 bg-light w-75 mx-5"
                 name="email"
                 />
                 <button className="btn btn-secondary" type="submit">Enviar</button>

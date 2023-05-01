@@ -26,16 +26,16 @@ const Cart = () => {
 
             {
                 cart.map((prod) => (
-                    <div className="cart card  mb-3 text-bg-info p-3"  key={prod.id}>
+                    <div className="cart card mx-auto mb-3  p-3 w-75"  key={prod.id}>
                         <div className="row g-0">
                             <div className="col-md-4">    
-                                <img className="img-fluid rounded-start" src={prod.img1} alt={prod.modelo}/>
+                                <img className="img-fluid rounded-start rounded" src={prod.img1} alt={prod.modelo}/>
                             </div>
-                            <div className="col-md-8">
-                                <h4>{prod.modelo}</h4>
-                                <small>Precio unitario: ${prod.precio} </small>
-                                <small>Cantidad: {prod.cantidad}</small>
-                                <p>Precio Total: ${prod.precio * prod.cantidad}</p>
+                            <div className="col-md-8 p-3">
+                                <h4 >{prod.modelo}</h4>
+                                <p>Precio unitario: U$S{prod.precio} </p>
+                                <p>Cantidad: {prod.cantidad}</p>
+                                <p>Precio Total: U$S{prod.precio * prod.cantidad}</p>
                                 <button 
                                     onClick={() => eliminarDelCarrito(prod.id) } 
                                     className="btn btn-danger"
@@ -48,7 +48,7 @@ const Cart = () => {
                 ))
             }
 
-            <h3>TOTAL: ${totalCompra().toFixed(2)}</h3>
+            <h3>TOTAL: U$S{totalCompra().toFixed(2)}</h3>
             <button onClick={vaciarCarrito} className="btn btn-danger">Vaciar carro</button>
             <Link className="btn btn-success" to="/checkout">Finalizar compra</Link>
         </div>
